@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+.child{
+    width: 50%;
+    height: 350px;
+    background-color: rgba(43, 78, 45, 0.801);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    justify-content: center;
+    padding-left: 5%;
+    
+
+    
+}
+
+.child > h1{
+    color: aliceblue;
+    font-size: 100px;
+    text-align: left;
+    
+    
+}
+
+.child > p{
+    text-align: left;
+    justify-content: right;
+}
+
+
+
+.corpele{
+    width: 50%;
+    height: 350px;
+    background-color: rgba(255, 228, 196, 0.616);
+
+    
+}
+
+.corpele > p{
+    padding: 3%;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+#imagem{
+   
+}
+
+
+
+.branco{
+    width: 50%;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.432);
+    
+}
+
+ .branco{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    
+}
+
+.branco > p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    padding: 7%;
+}
+
+.branco >.botao{
+    text-align: center;
+   
+}
+
+#imagemdois{
+    width: 190px;
+    
+    
+    
+}
+
+#botao{
+    
+    height: 20px;
+    
+}
+    
+
+    
+
+
+ header {
+    height: 28vh;
+    background: url(imagens/photo-1493673272479-a20888bcee10.jpg);
+    text-align: center;
+    padding: 50px;
+    color: rgb(206, 206, 206);
+}
+
+.titulo{
+    
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid white; 
+    padding: 20px; 
+    display: block;
+}
+
+.letrasmenor{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1%;
+    font-size: 8px;
+}
+
+.titulo > p{
+    text-align: center;
+    justify-content: center;
+}
+
+
